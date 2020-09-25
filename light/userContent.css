@@ -1,0 +1,94 @@
+@-moz-document url("about:newtab") {
+	body {
+		/* Thunderbird Colors. */
+		--color-white: 255, 255, 255;
+		--color-grey-10: 249, 249, 250;
+		--color-grey-20: 237, 237, 240;
+		--color-grey-30: 215, 215, 219;
+		--color-grey-40: 177, 177, 179;
+		--color-grey-50: 115, 115, 115;
+		--color-grey-60:  74, 74, 79;
+		--color-grey-70: 56, 56, 61;
+		--color-grey-80: 42, 42, 46;
+		--color-grey-90: 12, 12, 13;
+		--color-black: 0, 0, 0;
+
+		--color-blue-60: 0, 96, 223;
+		--color-teal-70: 0, 142, 164;
+
+		--color-ink-40: 43, 33, 86;
+		--color-ink-70: 54, 57, 89;
+
+		/* Color Mappings. */
+		--color-0: var(--color-black);
+		--color-1: var(--color-grey-90);
+		--color-2: var(--color-grey-60);
+		--color-3: var(--color-grey-50);
+		--color-4: var(--color-grey-40);
+		--color-5: var(--color-grey-30);
+		--color-6: var(--color-grey-20);
+		--color-7: var(--color-grey-10);
+		--color-8: var(--color-white);
+
+		--color-link: var(--color-blue-60);
+		--color-link-alt: var(--color-teal-70);
+
+		--color-logo: var(--color-ink-70);
+		--color-header: var(--color-ink-40);
+
+		/* New Tab Color Variables. */
+		--newtab-background-color: rgba(var(--color-7), 1) !important;
+		--newtab-border-primary-color: rgba(var(--color-4), 1) !important;
+		--newtab-border-secondary-color: rgba(var(--color-5), 1) !important;
+		--newtab-element-active-color: rgba(var(--color-5), 0.6) !important;
+		--newtab-element-hover-color: rgba(var(--color-6), 1) !important;
+		--newtab-icon-primary-color: rgba(var(--color-1), 0.8) !important;
+		--newtab-icon-secondary-color: rgba(var(--color-1), 0.6) !important;
+		--newtab-icon-tertiary-color: rgba(var(--color-5), 1) !important;
+		--newtab-inner-box-shadow-color: rgba(var(--color-0), 0.1) !important;
+		--newtab-link-primary-color: rgba(var(--color-link), 1) !important;
+		--newtab-link-secondary-color: rgba(var(--color-link-alt), 1) !important;
+		--newtab-text-conditional-color: rgba(var(--color-2), 1) !important;
+		--newtab-text-primary-color: rgba(var(--color-1), 1) !important;
+		--newtab-text-secondary-color: rgba(var(--color-3), 1) !important;
+		--newtab-textbox-background-color: rgba(var(--color-8), 1) !important;
+		--newtab-textbox-border: rgba(var(--color-1), 0.2) !important;
+		--newtab-textbox-focus-color: rgba(var(--color-link), 1) !important;
+		--newtab-textbox-focus-boxshadow: 0 0 0 1px rgba(var(--color-link), 1), 0 0 0 4px rgba(var(--color-link), 0.3) !important;
+		--newtab-button-primary-color: rgba(var(--color-link), 1) !important;
+		--newtab-button-secondary-color: inherit !important;
+		--newtab-feed-button-background: rgba(var(--color-6), 1) !important;
+		--newtab-feed-button-text: rgba(var(--color-1), 1) !important;
+		--newtab-feed-button-background-faded: rgba(var(--color-6), 0.6) !important;
+		--newtab-feed-button-text-faded: rgba(var(--color-1), 0) !important;
+		--newtab-feed-button-spinner: rgba(var(--color-3), 1) !important;
+		--newtab-contextmenu-background-color: rgba(var(--color-7), 1) !important;
+		--newtab-contextmenu-button-color: rgba(var(--color-8), 1) !important;
+		--newtab-modal-color: rgba(var(--color-8), 1) !important;
+		--newtab-overlay-color: rgba(var(--color-6), 0.8) !important;
+		--newtab-section-header-text-color: rgba(var(--color-3), 1) !important;
+		--newtab-section-navigation-text-color: rgba(var(--color-3), 1) !important;
+		--newtab-section-active-contextmenu-color: rgba(var(--color-1), 1) !important;
+		--newtab-search-border-color: transparent !important;
+		--newtab-search-dropdown-color: rgba(var(--color-8), 1) !important;
+		--newtab-search-dropdown-header-color: rgba(var(--color-7), 1) !important;
+		--newtab-search-header-background-color: rgba(var(--color-7), 0.95) !important;
+		--newtab-search-icon-color: rgba(var(--color-1), 0.4) !important;
+		--newtab-search-wordmark-color: rgba(var(--color-logo), 1) !important;
+		--newtab-topsites-background-color: rgba(var(--color-8), 1) !important;
+		--newtab-topsites-icon-shadow: inset 0 0 0 1px var(--newtab-inner-box-shadow-color) !important;
+		--newtab-topsites-label-color: inherit !important;
+		--newtab-card-active-outline-color: rgba(var(--color-5), 1) !important;
+		--newtab-card-background-color: rgba(var(--color-8), 1) !important;
+		--newtab-card-hairline-color: rgba(var(--color-0), 0.1) !important;
+		--newtab-card-placeholder-color: rgba(var(--color-5), 1) !important;
+		--newtab-card-shadow: 0 1px 4px 0 rgba(var(--color-1), 0.1) !important;
+		--newtab-snippets-background-color: rgba(var(--color-8), 1) !important;
+		--newtab-snippets-hairline-color: transparent !important;
+		--trailhead-header-text-color: rgba(var(--color-header), 1) !important;
+		--trailhead-cards-background-color: rgba(var(--color-6), 1) !important;
+		--trailhead-card-button-background-color: rgba(var(--color-1), 0.1) !important;
+		--trailhead-card-button-background-hover-color: rgba(var(--color-1), 0.2) !important;
+		--trailhead-card-button-background-active-color: rgba(var(--color-1), 0.3) !important;
+	}
+}
