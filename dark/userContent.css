@@ -1,4 +1,4 @@
-@-moz-document url("about:newtab") {
+@-moz-document regexp("^about:(newtab|home)$") {
 	body {
 		/* Thunderbird Colors. */
 		--color-white: 255, 255, 255;
